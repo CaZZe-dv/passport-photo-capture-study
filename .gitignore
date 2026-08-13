@@ -1,0 +1,46 @@
+# --- Node / Expo (app/) ---
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Generated native projects
+app/ios/
+app/android/
+
+# --- Python (backend/) ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# --- Secrets / env ---
+.env
+.env.*
+!.env.example
+
+# --- Signing material ---
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# --- Office temp files ---
+~$*
+~WRL*.tmp
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

@@ -1,0 +1,12 @@
+# Face-detection API
+fastapi==0.135.0
+uvicorn==0.41.0
+pydantic==2.12.5
+mediapipe==0.10.9
+opencv-python==4.13.0.92
+numpy==2.4.2
+
+# Offline analysis pipeline
+pandas==3.0.1
+scipy==1.17.1
+matplotlib==3.10.8

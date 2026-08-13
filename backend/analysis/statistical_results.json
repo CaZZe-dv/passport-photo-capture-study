@@ -1,0 +1,137 @@
+[
+  {
+    "test":"Task Time",
+    "method":"Mann-Whitney U",
+    "statistic":50.0,
+    "p_value":0.4267767365,
+    "significant":"not significant",
+    "effect_size":0.1977,
+    "effect_type":"r"
+  },
+  {
+    "test":"Attempts",
+    "method":"Mann-Whitney U",
+    "statistic":75.0,
+    "p_value":0.001711445,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.718,
+    "effect_type":"r"
+  },
+  {
+    "test":"First Attempt Compliance",
+    "method":"Fisher's Exact Test",
+    "statistic":null,
+    "p_value":0.0497737557,
+    "significant":"SIGNIFICANT",
+    "effect_size":16.0,
+    "effect_type":"OR"
+  },
+  {
+    "test":"Task Success",
+    "method":"Skipped (no variation)",
+    "statistic":null,
+    "p_value":1.0,
+    "significant":"not significant",
+    "effect_size":null,
+    "effect_type":null
+  },
+  {
+    "test":"SUS",
+    "method":"Independent t-test",
+    "statistic":-11.7236090103,
+    "p_value":0.0000000029,
+    "significant":"SIGNIFICANT",
+    "effect_size":5.5266,
+    "effect_type":"Cohens_d"
+  },
+  {
+    "test":"Likert",
+    "method":"Independent t-test",
+    "statistic":-11.1978502191,
+    "p_value":0.0000000056,
+    "significant":"SIGNIFICANT",
+    "effect_size":5.2787,
+    "effect_type":"Cohens_d"
+  },
+  {
+    "test":"Errors",
+    "method":"Mann-Whitney U",
+    "statistic":75.0,
+    "p_value":0.0019144619,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.718,
+    "effect_type":"r"
+  },
+  {
+    "test":"Warnings",
+    "method":"Mann-Whitney U",
+    "statistic":72.0,
+    "p_value":0.004308145,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.6556,
+    "effect_type":"r"
+  },
+  {
+    "test":"Errors per Attempt",
+    "method":"Mann-Whitney U",
+    "statistic":74.5,
+    "p_value":0.0022566902,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.7076,
+    "effect_type":"r"
+  },
+  {
+    "test":"Success Rate",
+    "method":"Mann-Whitney U",
+    "statistic":2.0,
+    "p_value":0.0006747874,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.8013,
+    "effect_type":"r"
+  },
+  {
+    "test":"Attempts vs Errors",
+    "method":"Spearman Correlation",
+    "statistic":0.9716421773,
+    "p_value":0.0,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.9716421773,
+    "effect_type":"r_s"
+  },
+  {
+    "test":"TaskTime vs Attempts",
+    "method":"Spearman Correlation",
+    "statistic":0.3859354347,
+    "p_value":0.1136861712,
+    "significant":"not significant",
+    "effect_size":0.3859354347,
+    "effect_type":"r_s"
+  },
+  {
+    "test":"Attempt-Level Errors",
+    "method":"Mann-Whitney U",
+    "statistic":397.0,
+    "p_value":0.0015305281,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.4105,
+    "effect_type":"r"
+  },
+  {
+    "test":"Errors in Adjust Background",
+    "method":"Mann-Whitney U",
+    "statistic":7.0,
+    "p_value":0.3006229882,
+    "significant":"not significant",
+    "effect_size":0.3873,
+    "effect_type":"r"
+  },
+  {
+    "test":"Errors in Adjust Face Position",
+    "method":"Mann-Whitney U",
+    "statistic":24.0,
+    "p_value":0.0142941753,
+    "significant":"SIGNIFICANT",
+    "effect_size":0.7385,
+    "effect_type":"r"
+  }
+]

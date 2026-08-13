@@ -1,0 +1,87 @@
+[
+  {
+    "participantId":"P01",
+    "uiType":"baseline",
+    "comment":"Instructions could have been more clear. I didn\u2019t know what to do really. There were no instructions."
+  },
+  {
+    "participantId":"P02",
+    "uiType":"optimized",
+    "comment":"Guidance trough the photo taking process was fluent and easy to understand. Alignments made it clear what to do. Clear instructions."
+  },
+  {
+    "participantId":"P03",
+    "uiType":"baseline",
+    "comment":"No clear instructions on how to take photo. Try and error was required until i had compliant photo."
+  },
+  {
+    "participantId":"P04",
+    "uiType":"optimized",
+    "comment":"Well designed guidance. Overlays were very helpful. And instructions clear."
+  },
+  {
+    "participantId":"P05",
+    "uiType":"baseline",
+    "comment":"No instructions at all. Only if photo compliant or not. Multiple try\u2019s were needed until compliant photo was achieved."
+  },
+  {
+    "participantId":"P06",
+    "uiType":"optimized",
+    "comment":"Helpful guidance."
+  },
+  {
+    "participantId":"P07",
+    "uiType":"baseline",
+    "comment":"No guidance at all. Frustrating if photo gets rejected multiple times but i dont know why."
+  },
+  {
+    "participantId":"P08",
+    "uiType":"optimized",
+    "comment":"Good guidance, fixed quickly after one mistake."
+  },
+  {
+    "participantId":"P09",
+    "uiType":"baseline",
+    "comment":"Without guidance very hard to achieve a compliant photo."
+  },
+  {
+    "participantId":"P10",
+    "uiType":"optimized",
+    "comment":"Minor adjustment needed but overall very easy."
+  },
+  {
+    "participantId":"P11",
+    "uiType":"optimized",
+    "comment":"Very smooth, only slight lighting adjustment needed."
+  },
+  {
+    "participantId":"P13",
+    "uiType":"optimized",
+    "comment":"Clear instructions, well designed."
+  },
+  {
+    "participantId":"P14",
+    "uiType":"baseline",
+    "comment":"No instructions. It\u2019s hard to achieve a compliant photo with no help."
+  },
+  {
+    "participantId":"P15",
+    "uiType":"baseline",
+    "comment":"Very frustrating. I didn\u2019t know what to fix after errors."
+  },
+  {
+    "participantId":"P16",
+    "uiType":"optimized",
+    "comment":"Very intuitive. Fixed the issue quickly."
+  },
+  {
+    "participantId":"P17",
+    "uiType":"baseline",
+    "comment":"Needed multiple tries. No clear feedback why it failed."
+  },
+  {
+    "participantId":"P18",
+    "uiType":"optimized",
+    "comment":"Perfect guidance. Very easy to complete."
+  }
+]

@@ -1,0 +1,16 @@
+test,method,statistic,p_value,significant,effect_size,effect_type
+Task Time,Mann-Whitney U,50.0,0.42677673653298365,not significant,0.1977,r
+Attempts,Mann-Whitney U,75.0,0.0017114449643669683,SIGNIFICANT,0.718,r
+First Attempt Compliance,Fisher's Exact Test,,0.049773755656108594,SIGNIFICANT,16.0,OR
+Task Success,Skipped (no variation),,1.0,not significant,,
+SUS,Independent t-test,-11.723609010267142,2.881536481890841e-09,SIGNIFICANT,5.5266,Cohens_d
+Likert,Independent t-test,-11.197850219117086,5.568126084537981e-09,SIGNIFICANT,5.2787,Cohens_d
+Errors,Mann-Whitney U,75.0,0.0019144618766764848,SIGNIFICANT,0.718,r
+Warnings,Mann-Whitney U,72.0,0.004308144983481431,SIGNIFICANT,0.6556,r
+Errors per Attempt,Mann-Whitney U,74.5,0.002256690222643859,SIGNIFICANT,0.7076,r
+Success Rate,Mann-Whitney U,2.0,0.0006747874027772396,SIGNIFICANT,0.8013,r
+Attempts vs Errors,Spearman Correlation,0.9716421773033327,1.9238953144111215e-11,SIGNIFICANT,0.9716421773033327,r_s
+TaskTime vs Attempts,Spearman Correlation,0.38593543473238245,0.11368617117574861,not significant,0.38593543473238245,r_s
+Attempt-Level Errors,Mann-Whitney U,397.0,0.0015305281144701727,SIGNIFICANT,0.4105,r
+Errors in Adjust Background,Mann-Whitney U,7.0,0.3006229881969068,not significant,0.3873,r
+Errors in Adjust Face Position,Mann-Whitney U,24.0,0.014294175264672498,SIGNIFICANT,0.7385,r

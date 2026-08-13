@@ -1,0 +1,2331 @@
+[
+  {
+    "participantId": "P01",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-28T09:34:18.212Z",
+    "endTimestamp": "2026-03-28T09:34:48.964Z",
+    "attempts": 5,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 8,
+    "errors": {
+      "Adjust Background": {
+        "2": 3
+      },
+      "Adjust Face Position": {
+        "3": 2,
+        "4": 2,
+        "5": 1
+      }
+    },
+    "warningCount": 1,
+    "warnings": {
+      "Adjust Face Position": {
+        "6": 1
+      }
+    },
+    "successesCount": 18,
+    "successes": {
+      "Find Face": {
+        "6": 5
+      },
+      "Adjust Lightning": {
+        "7": 5
+      },
+      "Adjust Face Expression": {
+        "4": 5
+      },
+      "Adjust Background": {
+        "3": 2
+      },
+      "Adjust Face Position": {
+        "9": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-28T09:34:20.644Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 5,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 4,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-28T09:34:24.634Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 4,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-28T09:34:33.861Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-28T09:34:39.497Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-28T09:34:47.859Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 2,
+    "sus_question2": 3,
+    "sus_question3": 4,
+    "sus_question4": 3,
+    "sus_question5": 2,
+    "sus_question6": 4,
+    "sus_question7": 1,
+    "sus_question8": 4,
+    "sus_question9": 3,
+    "sus_question10": 1,
+    "custom_question1": 1,
+    "custom_question2": 1,
+    "custom_question3": 3,
+    "custom_question4": 2,
+    "custom_question5": 2,
+    "open_feedback": "Instructions could have been more clear. I didn’t know what to do really. There were no instructions.",
+    "timestamp": "2026-03-28T09:34:09.377Z"
+  },
+  {
+    "participantId": "P02",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-28T09:37:51.713Z",
+    "endTimestamp": "2026-03-28T09:38:36.817Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 5,
+    "successes": {
+      "Find Face": {
+        "6": 1
+      },
+      "Adjust Lightning": {
+        "7": 1
+      },
+      "Adjust Background": {
+        "3": 1
+      },
+      "Adjust Face Position": {
+        "9": 1
+      },
+      "Adjust Face Expression": {
+        "4": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-28T09:38:34.054Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 4,
+    "sus_question2": 2,
+    "sus_question3": 4,
+    "sus_question4": 2,
+    "sus_question5": 5,
+    "sus_question6": 2,
+    "sus_question7": 4,
+    "sus_question8": 2,
+    "sus_question9": 4,
+    "sus_question10": 1,
+    "custom_question1": 4,
+    "custom_question2": 4,
+    "custom_question3": 4,
+    "custom_question4": 5,
+    "custom_question5": 4,
+    "open_feedback": "Guidance trough the photo taking process was fluent and easy to understand. Alignments made it clear what to do. Clear instructions.",
+    "timestamp": "2026-03-28T09:37:19.363Z"
+  },
+  {
+    "participantId": "P03",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-28T09:41:27.531Z",
+    "endTimestamp": "2026-03-28T09:42:19.604Z",
+    "attempts": 5,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 8,
+    "errors": {
+      "Adjust Background": {
+        "2": 3
+      },
+      "Adjust Face Position": {
+        "3": 3,
+        "4": 1,
+        "5": 1
+      }
+    },
+    "warningCount": 3,
+    "warnings": {
+      "Adjust Face Position": {
+        "6": 1
+      },
+      "Adjust Lightning": {
+        "6": 2
+      }
+    },
+    "successesCount": 16,
+    "successes": {
+      "Find Face": {
+        "6": 5
+      },
+      "Adjust Lightning": {
+        "7": 3
+      },
+      "Adjust Face Expression": {
+        "4": 5
+      },
+      "Adjust Background": {
+        "3": 2
+      },
+      "Adjust Face Position": {
+        "9": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-28T09:41:37.715Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 4,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-28T09:41:45.971Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 5,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-28T09:41:59.861Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-28T09:42:04.428Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-28T09:42:18.177Z",
+        "results": [
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 2,
+    "sus_question2": 2,
+    "sus_question3": 2,
+    "sus_question4": 4,
+    "sus_question5": 1,
+    "sus_question6": 4,
+    "sus_question7": 1,
+    "sus_question8": 2,
+    "sus_question9": 2,
+    "sus_question10": 1,
+    "custom_question1": 2,
+    "custom_question2": 2,
+    "custom_question3": 3,
+    "custom_question4": 4,
+    "custom_question5": 2,
+    "open_feedback": "No clear instructions on how to take photo. Try and error was required until i had compliant photo.",
+    "timestamp": "2026-03-28T09:40:36.949Z"
+  },
+  {
+    "participantId": "P04",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-29T09:49:11.275Z",
+    "endTimestamp": "2026-03-29T09:51:06.613Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 5,
+    "successes": {
+      "Find Face": {
+        "6": 1
+      },
+      "Adjust Lightning": {
+        "7": 1
+      },
+      "Adjust Background": {
+        "3": 1
+      },
+      "Adjust Face Position": {
+        "9": 1
+      },
+      "Adjust Face Expression": {
+        "4": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-29T09:51:05.280Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 3,
+    "sus_question2": 2,
+    "sus_question3": 5,
+    "sus_question4": 1,
+    "sus_question5": 4,
+    "sus_question6": 2,
+    "sus_question7": 3,
+    "sus_question8": 2,
+    "sus_question9": 3,
+    "sus_question10": 2,
+    "custom_question1": 4,
+    "custom_question2": 5,
+    "custom_question3": 3,
+    "custom_question4": 4,
+    "custom_question5": 4,
+    "open_feedback": "Well designed guidance. Overlays were very helpful. And instructions clear.",
+    "timestamp": "2026-03-29T09:45:42.981Z"
+  },
+  {
+    "participantId": "P05",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-29T09:53:50.294Z",
+    "endTimestamp": "2026-03-29T09:55:39.122Z",
+    "attempts": 5,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 6,
+    "errors": {
+      "Adjust Background": {
+        "2": 1
+      },
+      "Adjust Face Position": {
+        "3": 2,
+        "4": 1,
+        "7": 1
+      },
+      "Adjust Face Expression": {
+        "3": 1
+      }
+    },
+    "warningCount": 4,
+    "warnings": {
+      "Adjust Lightning": {
+        "6": 4
+      }
+    },
+    "successesCount": 16,
+    "successes": {
+      "Find Face": {
+        "6": 5
+      },
+      "Adjust Lightning": {
+        "7": 1
+      },
+      "Adjust Face Expression": {
+        "4": 4
+      },
+      "Adjust Background": {
+        "3": 4
+      },
+      "Adjust Face Position": {
+        "9": 2
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-29T09:54:03.164Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 4,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-29T09:54:20.048Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-29T09:54:43.254Z",
+        "results": [
+          {
+            "step": "Adjust Face Expression",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-29T09:55:02.512Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 7,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-29T09:55:38.028Z",
+        "results": [
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 1,
+    "sus_question2": 3,
+    "sus_question3": 1,
+    "sus_question4": 4,
+    "sus_question5": 2,
+    "sus_question6": 3,
+    "sus_question7": 2,
+    "sus_question8": 3,
+    "sus_question9": 2,
+    "sus_question10": 2,
+    "custom_question1": 1,
+    "custom_question2": 1,
+    "custom_question3": 3,
+    "custom_question4": 4,
+    "custom_question5": 1,
+    "open_feedback": "No instructions at all. Only if photo compliant or not. Multiple try’s were needed until compliant photo was achieved.",
+    "timestamp": "2026-03-29T09:52:44.349Z"
+  },
+  {
+    "participantId": "P06",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-29T10:00:36.324Z",
+    "endTimestamp": "2026-03-29T10:01:42.700Z",
+    "attempts": 2,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 2,
+    "errors": {
+      "Adjust Background": {
+        "2": 1
+      },
+      "Adjust Face Position": {
+        "7": 1
+      }
+    },
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 8,
+    "successes": {
+      "Find Face": {
+        "6": 2
+      },
+      "Adjust Lightning": {
+        "7": 2
+      },
+      "Adjust Face Expression": {
+        "4": 2
+      },
+      "Adjust Background": {
+        "3": 1
+      },
+      "Adjust Face Position": {
+        "9": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-29T10:01:24.455Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 7,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-29T10:01:38.690Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 4,
+    "sus_question2": 2,
+    "sus_question3": 4,
+    "sus_question4": 1,
+    "sus_question5": 4,
+    "sus_question6": 2,
+    "sus_question7": 5,
+    "sus_question8": 2,
+    "sus_question9": 3,
+    "sus_question10": 2,
+    "custom_question1": 4,
+    "custom_question2": 4,
+    "custom_question3": 3,
+    "custom_question4": 4,
+    "custom_question5": 4,
+    "open_feedback": "Helpful guidance.",
+    "timestamp": "2026-03-29T09:59:12.395Z"
+  },
+  {
+    "participantId": "P07",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-30T10:18:08.052Z",
+    "endTimestamp": "2026-03-30T10:19:29.006Z",
+    "attempts": 6,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 8,
+    "errors": {
+      "Adjust Background": {
+        "2": 3
+      },
+      "Adjust Face Position": {
+        "3": 5
+      }
+    },
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 22,
+    "successes": {
+      "Find Face": {
+        "6": 6
+      },
+      "Adjust Lightning": {
+        "7": 6
+      },
+      "Adjust Face Expression": {
+        "4": 6
+      },
+      "Adjust Background": {
+        "3": 3
+      },
+      "Adjust Face Position": {
+        "9": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T10:18:26.387Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T10:18:48.296Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-30T10:19:05.610Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-30T10:19:13.573Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-30T10:19:20.190Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 6,
+        "timestamp": "2026-03-30T10:19:26.136Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 1,
+    "sus_question2": 4,
+    "sus_question3": 2,
+    "sus_question4": 4,
+    "sus_question5": 1,
+    "sus_question6": 5,
+    "sus_question7": 1,
+    "sus_question8": 4,
+    "sus_question9": 3,
+    "sus_question10": 3,
+    "custom_question1": 1,
+    "custom_question2": 1,
+    "custom_question3": 2,
+    "custom_question4": 2,
+    "custom_question5": 1,
+    "open_feedback": "No guidance at all. Frustrating if photo gets rejected multiple times but i dont know why.",
+    "timestamp": "2026-03-30T10:17:55.578Z"
+  },
+  {
+    "participantId": "P08",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-30T10:21:14.862Z",
+    "endTimestamp": "2026-03-30T10:22:05.179Z",
+    "attempts": 2,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 1,
+    "errors": {
+      "Adjust Face Position": {
+        "7": 1
+      }
+    },
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 9,
+    "successes": {
+      "Find Face": { "6": 2 },
+      "Adjust Lightning": { "7": 2 },
+      "Adjust Background": { "3": 2 },
+      "Adjust Face Position": { "9": 1 },
+      "Adjust Face Expression": { "4": 2 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T10:21:40.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 7, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T10:22:00.000Z",
+        "results": [
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Position", "id": 9, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 4,
+    "sus_question2": 1,
+    "sus_question3": 5,
+    "sus_question4": 1,
+    "sus_question5": 4,
+    "sus_question6": 2,
+    "sus_question7": 4,
+    "sus_question8": 2,
+    "sus_question9": 4,
+    "sus_question10": 1,
+    "custom_question1": 5,
+    "custom_question2": 5,
+    "custom_question3": 4,
+    "custom_question4": 4,
+    "custom_question5": 4,
+    "open_feedback": "Good guidance, fixed quickly after one mistake.",
+    "timestamp": "2026-03-30T10:21:05.830Z"
+  },
+  {
+    "participantId": "P09",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-30T10:23:55.425Z",
+    "endTimestamp": "2026-03-30T10:25:11.824Z",
+    "attempts": 5,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 7,
+    "errors": {
+      "Adjust Background": {
+        "2": 2
+      },
+      "Adjust Face Position": {
+        "3": 4,
+        "5": 1
+      }
+    },
+    "warningCount": 2,
+    "warnings": {
+      "Adjust Face Position": {
+        "6": 2
+      }
+    },
+    "successesCount": 19,
+    "successes": {
+      "Find Face": {
+        "6": 5
+      },
+      "Adjust Lightning": {
+        "7": 5
+      },
+      "Adjust Face Expression": {
+        "4": 5
+      },
+      "Adjust Background": {
+        "3": 3
+      },
+      "Adjust Face Position": {
+        "9": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T10:24:07.510Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T10:24:20.008Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 5,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-30T10:24:32.611Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-30T10:25:02.633Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-30T10:25:09.283Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 3,
+    "sus_question2": 3,
+    "sus_question3": 2,
+    "sus_question4": 4,
+    "sus_question5": 2,
+    "sus_question6": 4,
+    "sus_question7": 1,
+    "sus_question8": 4,
+    "sus_question9": 1,
+    "sus_question10": 3,
+    "custom_question1": 2,
+    "custom_question2": 2,
+    "custom_question3": 2,
+    "custom_question4": 2,
+    "custom_question5": 1,
+    "open_feedback": "Without guidance very hard to achieve a compliant photo.",
+    "timestamp": "2026-03-30T10:23:30.881Z"
+  },
+  {
+    "participantId": "P10",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-30T10:34:00.511Z",
+    "endTimestamp": "2026-03-30T10:34:55.207Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 1,
+    "warnings": {
+      "Adjust Face Position": {
+        "6": 1
+      }
+    },
+    "successesCount": 4,
+    "successes": {
+      "Find Face": { "6": 1 },
+      "Adjust Lightning": { "7": 1 },
+      "Adjust Background": { "3": 1 },
+      "Adjust Face Expression": { "4": 1 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T10:34:45.773Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 6, "hint": "Warning" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 5,
+    "sus_question2": 2,
+    "sus_question3": 4,
+    "sus_question4": 1,
+    "sus_question5": 4,
+    "sus_question6": 2,
+    "sus_question7": 4,
+    "sus_question8": 1,
+    "sus_question9": 4,
+    "sus_question10": 1,
+    "custom_question1": 5,
+    "custom_question2": 4,
+    "custom_question3": 4,
+    "custom_question4": 4,
+    "custom_question5": 4,
+    "open_feedback": "Minor adjustment needed but overall very easy.",
+    "timestamp": "2026-03-30T10:26:52.432Z"
+  },
+  {
+    "participantId": "P11",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-30T15:24:36.777Z",
+    "endTimestamp": "2026-03-30T15:25:30.929Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 1,
+    "warnings": {
+      "Adjust Lightning": {
+        "6": 1
+      }
+    },
+    "successesCount": 4,
+    "successes": {
+      "Find Face": { "6": 1 },
+      "Adjust Background": { "3": 1 },
+      "Adjust Face Position": { "9": 1 },
+      "Adjust Face Expression": { "4": 1 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T15:25:23.063Z",
+        "results": [
+          { "step": "Adjust Lightning", "id": 6, "hint": "Warning" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Position", "id": 9, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 4,
+    "sus_question2": 2,
+    "sus_question3": 4,
+    "sus_question4": 1,
+    "sus_question5": 4,
+    "sus_question6": 2,
+    "sus_question7": 4,
+    "sus_question8": 2,
+    "sus_question9": 4,
+    "sus_question10": 1,
+    "custom_question1": 4,
+    "custom_question2": 4,
+    "custom_question3": 4,
+    "custom_question4": 4,
+    "custom_question5": 4,
+    "open_feedback": "Very smooth, only slight lighting adjustment needed.",
+    "timestamp": "2026-03-30T15:24:27.478Z"
+  },
+  {
+    "participantId": "P12",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-30T15:26:53.941Z",
+    "endTimestamp": "2026-03-30T15:27:09.779Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 1,
+    "warnings": {
+      "Adjust Face Position": {
+        "6": 1
+      }
+    },
+    "successesCount": 4,
+    "successes": {
+      "Find Face": {
+        "6": 1
+      },
+      "Adjust Lightning": {
+        "7": 1
+      },
+      "Adjust Background": {
+        "3": 1
+      },
+      "Adjust Face Expression": {
+        "4": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T15:27:03.468Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 3,
+    "sus_question2": 3,
+    "sus_question3": 4,
+    "sus_question4": 2,
+    "sus_question5": 3,
+    "sus_question6": 3,
+    "sus_question7": 2,
+    "sus_question8": 3,
+    "sus_question9": 3,
+    "sus_question10": 2,
+    "custom_question1": 2,
+    "custom_question2": 2,
+    "custom_question3": 3,
+    "custom_question4": 4,
+    "custom_question5": 3,
+    "open_feedback": "",
+    "timestamp": "2026-03-30T15:26:45.842Z"
+  },
+  {
+    "participantId": "P13",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-30T15:28:19.178Z",
+    "endTimestamp": "2026-03-30T15:29:16.848Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 1,
+    "warnings": {
+      "Adjust Face Position": {
+        "6": 1
+      }
+    },
+    "successesCount": 4,
+    "successes": {
+      "Find Face": {
+        "6": 1
+      },
+      "Adjust Lightning": {
+        "7": 1
+      },
+      "Adjust Background": {
+        "3": 1
+      },
+      "Adjust Face Expression": {
+        "4": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T15:29:11.731Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 3,
+    "sus_question2": 2,
+    "sus_question3": 4,
+    "sus_question4": 2,
+    "sus_question5": 5,
+    "sus_question6": 2,
+    "sus_question7": 4,
+    "sus_question8": 2,
+    "sus_question9": 4,
+    "sus_question10": 1,
+    "custom_question1": 4,
+    "custom_question2": 4,
+    "custom_question3": 4,
+    "custom_question4": 4,
+    "custom_question5": 4,
+    "open_feedback": "Clear instructions, well designed.",
+    "timestamp": "2026-03-30T15:28:06.661Z"
+  },
+  {
+    "participantId": "P14",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-30T15:36:19.138Z",
+    "endTimestamp": "2026-03-30T15:37:14.232Z",
+    "attempts": 5,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 5,
+    "errors": {
+      "Adjust Background": {
+        "2": 1
+      },
+      "Adjust Face Position": {
+        "3": 4
+      }
+    },
+    "warningCount": 8,
+    "warnings": {
+      "Adjust Lightning": {
+        "6": 4
+      },
+      "Adjust Face Position": {
+        "6": 4
+      }
+    },
+    "successesCount": 16,
+    "successes": {
+      "Find Face": {
+        "6": 5
+      },
+      "Adjust Face Expression": {
+        "4": 5
+      },
+      "Adjust Background": {
+        "3": 4
+      },
+      "Adjust Lightning": {
+        "7": 1
+      },
+      "Adjust Face Position": {
+        "9": 1
+      }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T15:36:25.315Z",
+        "results": [
+          {
+            "step": "Adjust Background",
+            "id": 2,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T15:36:35.050Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-30T15:36:42.623Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-30T15:37:04.913Z",
+        "results": [
+          {
+            "step": "Adjust Face Position",
+            "id": 3,
+            "hint": "Error"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 6,
+            "hint": "Warning"
+          },
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-30T15:37:13.397Z",
+        "results": [
+          {
+            "step": "Find Face",
+            "id": 6,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Lightning",
+            "id": 7,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Background",
+            "id": 3,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Position",
+            "id": 9,
+            "hint": "Success"
+          },
+          {
+            "step": "Adjust Face Expression",
+            "id": 4,
+            "hint": "Success"
+          }
+        ]
+      }
+    ],
+    "sus_question1": 2,
+    "sus_question2": 3,
+    "sus_question3": 2,
+    "sus_question4": 3,
+    "sus_question5": 2,
+    "sus_question6": 4,
+    "sus_question7": 1,
+    "sus_question8": 3,
+    "sus_question9": 2,
+    "sus_question10": 2,
+    "custom_question1": 2,
+    "custom_question2": 2,
+    "custom_question3": 2,
+    "custom_question4": 2,
+    "custom_question5": 2,
+    "open_feedback": "No instructions. It’s hard to achieve a compliant photo with no help.",
+    "timestamp": "2026-03-30T15:36:12.255Z"
+  },
+  {
+    "participantId": "P15",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-30T16:00:00.152Z",
+    "endTimestamp": "2026-03-30T16:01:41.234Z",
+    "attempts": 6,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 9,
+    "errors": {
+      "Adjust Background": { "2": 3 },
+      "Adjust Face Position": { "3": 4, "5": 2 }
+    },
+    "warningCount": 2,
+    "warnings": {
+      "Adjust Face Position": { "6": 2 }
+    },
+    "successesCount": 20,
+    "successes": {
+      "Find Face": { "6": 6 },
+      "Adjust Lightning": { "7": 6 },
+      "Adjust Face Expression": { "4": 6 },
+      "Adjust Background": { "3": 1 },
+      "Adjust Face Position": { "9": 1 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T16:00:12.000Z",
+        "results": [
+          { "step": "Adjust Background", "id": 2, "hint": "Error" },
+          { "step": "Adjust Face Position", "id": 3, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T16:00:25.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 5, "hint": "Error" },
+          { "step": "Adjust Face Position", "id": 6, "hint": "Warning" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-30T16:00:40.000Z",
+        "results": [
+          { "step": "Adjust Background", "id": 2, "hint": "Error" },
+          { "step": "Adjust Face Position", "id": 3, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-30T16:01:00.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 5, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 5,
+        "timestamp": "2026-03-30T16:01:20.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 3, "hint": "Error" },
+          { "step": "Adjust Face Position", "id": 6, "hint": "Warning" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 6,
+        "timestamp": "2026-03-30T16:01:35.000Z",
+        "results": [
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Position", "id": 9, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 2,
+    "sus_question2": 4,
+    "sus_question3": 2,
+    "sus_question4": 4,
+    "sus_question5": 1,
+    "sus_question6": 4,
+    "sus_question7": 1,
+    "sus_question8": 3,
+    "sus_question9": 2,
+    "sus_question10": 3,
+    "custom_question1": 1,
+    "custom_question2": 1,
+    "custom_question3": 2,
+    "custom_question4": 2,
+    "custom_question5": 1,
+    "open_feedback": "Very frustrating. I didn’t know what to fix after errors.",
+    "timestamp": "2026-03-30T15:59:22.122Z"
+  },
+  {
+    "participantId": "P16",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-30T16:06:01.235Z",
+    "endTimestamp": "2026-03-30T16:06:42.345Z",
+    "attempts": 2,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 1,
+    "errors": {
+      "Adjust Face Position": { "7": 1 }
+    },
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 9,
+    "successes": {
+      "Find Face": { "6": 2 },
+      "Adjust Lightning": { "7": 2 },
+      "Adjust Background": { "3": 2 },
+      "Adjust Face Position": { "9": 1 },
+      "Adjust Face Expression": { "4": 2 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T16:06:20.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 7, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T16:06:35.000Z",
+        "results": [
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Position", "id": 9, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 4,
+    "sus_question2": 2,
+    "sus_question3": 5,
+    "sus_question4": 1,
+    "sus_question5": 5,
+    "sus_question6": 2,
+    "sus_question7": 4,
+    "sus_question8": 2,
+    "sus_question9": 4,
+    "sus_question10": 1,
+    "custom_question1": 4,
+    "custom_question2": 5,
+    "custom_question3": 4,
+    "custom_question4": 5,
+    "custom_question5": 4,
+    "open_feedback": "Very intuitive. Fixed the issue quickly.",
+    "timestamp": "2026-03-30T16:05:22.895Z"
+  },
+  {
+    "participantId": "P17",
+    "uiType": "baseline",
+    "startTimestamp": "2026-03-30T16:03:02.568Z",
+    "endTimestamp": "2026-03-30T16:04:11.526Z",
+    "attempts": 4,
+    "firstAttemptComplianceSuccess": 0,
+    "taskSuccess": 1,
+    "errorCount": 6,
+    "errors": {
+      "Adjust Face Position": { "3": 4 },
+      "Adjust Background": { "2": 2 }
+    },
+    "warningCount": 3,
+    "warnings": {
+      "Adjust Lightning": { "6": 3 }
+    },
+    "successesCount": 15,
+    "successes": {
+      "Find Face": { "6": 4 },
+      "Adjust Lightning": { "7": 1 },
+      "Adjust Face Expression": { "4": 4 },
+      "Adjust Background": { "3": 2 },
+      "Adjust Face Position": { "9": 1 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T16:03:10.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 3, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 2,
+        "timestamp": "2026-03-30T16:03:25.000Z",
+        "results": [
+          { "step": "Adjust Background", "id": 2, "hint": "Error" },
+          { "step": "Adjust Lightning", "id": 6, "hint": "Warning" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 3,
+        "timestamp": "2026-03-30T16:03:50.000Z",
+        "results": [
+          { "step": "Adjust Face Position", "id": 3, "hint": "Error" },
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      },
+      {
+        "attempt": 4,
+        "timestamp": "2026-03-30T16:04:05.000Z",
+        "results": [
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Position", "id": 9, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 2,
+    "sus_question2": 3,
+    "sus_question3": 2,
+    "sus_question4": 4,
+    "sus_question5": 2,
+    "sus_question6": 3,
+    "sus_question7": 2,
+    "sus_question8": 3,
+    "sus_question9": 2,
+    "sus_question10": 3,
+    "custom_question1": 2,
+    "custom_question2": 2,
+    "custom_question3": 2,
+    "custom_question4": 3,
+    "custom_question5": 2,
+    "open_feedback": "Needed multiple tries. No clear feedback why it failed.",
+    "timestamp": "2026-03-30T16:02:06.548Z"
+  },
+  {
+    "participantId": "P18",
+    "uiType": "optimized",
+    "startTimestamp": "2026-03-30T16:08:00.234Z",
+    "endTimestamp": "2026-03-30T16:08:35.678Z",
+    "attempts": 1,
+    "firstAttemptComplianceSuccess": 1,
+    "taskSuccess": 1,
+    "errorCount": 0,
+    "errors": {},
+    "warningCount": 0,
+    "warnings": {},
+    "successesCount": 5,
+    "successes": {
+      "Find Face": { "6": 1 },
+      "Adjust Lightning": { "7": 1 },
+      "Adjust Background": { "3": 1 },
+      "Adjust Face Position": { "9": 1 },
+      "Adjust Face Expression": { "4": 1 }
+    },
+    "attemptHistory": [
+      {
+        "attempt": 1,
+        "timestamp": "2026-03-30T16:08:30.000Z",
+        "results": [
+          { "step": "Find Face", "id": 6, "hint": "Success" },
+          { "step": "Adjust Lightning", "id": 7, "hint": "Success" },
+          { "step": "Adjust Background", "id": 3, "hint": "Success" },
+          { "step": "Adjust Face Position", "id": 9, "hint": "Success" },
+          { "step": "Adjust Face Expression", "id": 4, "hint": "Success" }
+        ]
+      }
+    ],
+    "sus_question1": 5,
+    "sus_question2": 2,
+    "sus_question3": 5,
+    "sus_question4": 1,
+    "sus_question5": 5,
+    "sus_question6": 2,
+    "sus_question7": 5,
+    "sus_question8": 1,
+    "sus_question9": 5,
+    "sus_question10": 1,
+    "custom_question1": 5,
+    "custom_question2": 5,
+    "custom_question3": 5,
+    "custom_question4": 5,
+    "custom_question5": 5,
+    "open_feedback": "Perfect guidance. Very easy to complete."
+  }
+]
